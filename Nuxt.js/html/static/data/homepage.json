@@ -1,0 +1,14 @@
+{
+    "ambassadors":[
+        {
+            "title": "Kai Lenny",
+            "slug": "kai-lenny",
+            "image": "/img/menu-1.png"
+        },
+        {
+            "title": "Orlando Duque",
+            "slug": "orlando-duque",
+            "image": "/img/menu-2.png"
+        }
+    ]
+ }

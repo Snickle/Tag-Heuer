@@ -1,0 +1,22 @@
+:root {
+    --white: #FFF;
+    --black: #1B1B1B;
+    --light-blue: #279BC6;
+    --blue: #0A5E84;
+    --green: #227335;
+    --red: #E82735;
+}
+
+.page-enter-active,
+.page-leave-active {
+	transition: opacity 0.3s;
+}
+
+.page-enter,
+.page-leave-to {
+	opacity: 0;
+}
+
+a {
+    text-decoration: none !important;
+}

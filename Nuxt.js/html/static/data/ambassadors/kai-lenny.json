@@ -1,0 +1,32 @@
+{
+    "title": "Kai<br>Lenny",
+    "slug": "kai-lenny",
+    "featured_image": "/img/kai-lenny/kai-lenny-featured.png",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus commodo, mauris vel mattis rutrum, ante mi facilisis velit.",
+    "slides": [
+        {
+            "title": "Kai<br>Lenny",
+            "featured_title": true,
+            "image": "/img/kai-lenny/kai-lenny-1.png",
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus commodo, mauris vel mattis rutrum, ante mi facilisis velit, ac euismod massa libero sit amet ex. Morbi fermentum mattis elit, imperdiet interdum felis aliquet ac. Duis mollis, nisl ac ultricies volutpat, ipsum sapien elementum sapien, in sagittis elit lectus eu turpis."
+        },
+        {
+            "title": "Discipline",
+            "featured_title": false,
+            "image": "/img/kai-lenny/kai-lenny-2.png",
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus commodo, mauris vel mattis rutrum, ante mi facilisis velit, ac euismod massa libero sit amet ex. Morbi fermentum mattis elit, imperdiet interdum felis aliquet ac. Duis mollis, nisl ac ultricies volutpat, ipsum sapien elementum sapien, in sagittis elit lectus eu turpis."
+        },
+        {
+            "title": "Fun Facts",
+            "featured_title": false,
+            "image": "/img/kai-lenny/kai-lenny-3.png",
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus commodo, mauris vel mattis rutrum, ante mi facilisis velit, ac euismod massa libero sit amet ex. Morbi fermentum mattis elit, imperdiet interdum felis aliquet ac. Duis mollis, nisl ac ultricies volutpat, ipsum sapien elementum sapien, in sagittis elit lectus eu turpis."
+        },
+        {
+            "title": "Complete",
+            "featured_title": false,
+            "image": false,
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus commodo, mauris vel mattis rutrum, ante mi facilisis velit, ac euismod massa libero sit amet ex. Morbi fermentum mattis elit, imperdiet interdum felis aliquet ac. Duis mollis, nisl ac ultricies volutpat, ipsum sapien elementum sapien, in sagittis elit lectus eu turpis."
+        }
+    ]
+ }
