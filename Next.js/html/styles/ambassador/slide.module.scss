@@ -1,0 +1,163 @@
+@import "../global/all";
+
+.ambassador-slide {
+    background: var(--light-blue);
+    display: flex;
+    aspect-ratio: 1;
+    height: 100vh;
+    position: relative;
+    width: 100%;
+
+    &__background {
+        overflow: hidden;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+
+        img {
+            height: 100%;
+            object-fit: cover;
+            transition: transform 3s ease-in-out;
+            width: 100%;
+        }
+
+        &:after {
+            content: "";
+            background: linear-gradient(180deg, rgba(10,94,132,0) 0%, rgba(10,112,131,1) 70%, rgba(6,37,44,1) 100%);
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+        }
+    }
+
+    &__container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        padding: rem-calc( 10 );
+        position: relative;
+        width: 100%;
+    }
+
+    &__content {
+        color: var(--white);
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        font-family: 'Metropolis Regular', $default_font;
+        font-size: rem-calc( 16 );
+        line-height: 1.5;
+        height: 100%;
+        padding: rem-calc( 40 ) 10vw;
+        position: relative;
+        text-align: center;
+        width: 100%;
+    }
+
+    &__title {
+        color: var(--white);
+        font-family: 'Metropolis Semi Bold', $default_font;
+        font-size: rem-calc( 24 );
+        margin: 0 0 rem-calc( 30 );
+        padding-bottom: rem-calc( 20 );
+        position: relative;
+        text-align: center;
+        text-transform: uppercase;
+
+        &:after {
+            content: "";
+            background: var(--red);
+            height: rem-calc( 5 );
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: rem-calc( 48 );
+        }
+
+        &--featured {
+            font-family: 'Metropolis Regular', $default_font;
+            font-size: rem-calc( 30 );
+            letter-spacing: 20px;
+            line-height: 1.2;
+            padding-bottom: rem-calc( 35 );
+        }
+    }
+
+    &__complete {
+        background: var(--green);
+        border: 1px solid var(--green);
+        border-radius: 100%;
+        height: rem-calc(48);
+        position: absolute;
+        bottom: rem-calc(86);
+        width: rem-calc(48);
+
+        span {
+            border: solid var(--white);
+            border-width: 0 2px 2px 0;
+            display: inline-block;
+            padding: 8px 4px;
+            transform: rotate(45deg);
+        }
+    }
+
+    &__scroll {
+        background: none;
+        border: 1px solid var(--white);
+        border-radius: 100%;
+        height: rem-calc(48);
+        position: absolute;
+        bottom: rem-calc(86);
+        transition: all 0.3s ease-in-out;
+        width: rem-calc(48);
+
+        span {
+            border: solid var(--white);
+            border-width: 0 2px 2px 0;
+            display: inline-block;
+            padding: rem-calc( 8 );
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transition: all 0.3s ease-in-out;
+            transform: translate( -50%, -75% ) rotate(45deg);
+            
+        }
+
+        &:hover, 
+        &:active {
+            background: var(--white);
+            
+            span {
+                border-color: var(--black);
+            }
+        }
+    }
+
+    &--hero {
+        .ambassador-slide__content {
+            border: 1px solid var(--white);
+        }
+
+        .ambassador-slide__title {
+            color: var(--black);
+            font-family: 'Metropolis Regular', $default_font;
+            font-size: rem-calc( 30 );
+            letter-spacing: 20px;
+            line-height: 1.2;
+            margin: 0;
+            padding: 0;
+
+            &:after {
+                display: none;
+            }
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "ambassadors": [
+        {
+            "id"    : 1,
+            "title" : "Kai Lenny",
+            "slug"  : "kai-lenny",
+            "image" : "/assets/img/menu-1.png"
+        },
+        {
+            "id"    : 2,
+            "title" : "Orlando Duque",
+            "slug"  : "orlando-duque",
+            "image" : "/assets/img/menu-2.png"
+        }
+    ]
+}

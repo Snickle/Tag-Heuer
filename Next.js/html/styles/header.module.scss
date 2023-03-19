@@ -1,0 +1,59 @@
+@import "global/all";
+
+.header {
+	background: var(--white);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: rem-calc(80);
+	padding: rem-calc(15);
+
+	@include desktop-and-up {
+		justify-content: flex-start;
+		height: rem-calc(120);
+		padding: rem-calc(20);
+	}
+
+	&__container {
+		display: flex;
+		justify-content: center;
+
+		@include desktop-and-up {
+			justify-content: flex-start;
+		}
+	}
+
+	&__logo {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+
+		@include desktop-and-up {
+			flex-direction: row;
+		}
+
+		img {
+			height: rem-calc(24);
+
+			@include desktop-and-up {
+				height: rem-calc(60);
+			}
+		}
+
+		span {
+			color: var(--black);
+			font-family: 'Metropolis Semi Bold', $default_font;
+			font-size: rem-calc(10);
+			margin: rem-calc(5) 0 0;
+			letter-spacing: 1px;
+			text-align: center;
+			text-transform: uppercase;
+
+			@include desktop-and-up {
+				font-size: rem-calc(20);
+				margin: 0 0 0 rem-calc(20);
+			}
+		}
+	}
+}

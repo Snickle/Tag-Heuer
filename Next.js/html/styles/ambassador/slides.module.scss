@@ -1,0 +1,9 @@
+@import "../global/all";
+
+.ambassador-slides {
+    &__container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
